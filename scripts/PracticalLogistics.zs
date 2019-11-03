@@ -13,6 +13,8 @@
         mods.jei.JEI.removeAndHide(<practicallogistics2:etchedplate>);
         mods.jei.JEI.removeAndHide(<practicallogistics2:entitynode>);
         mods.jei.JEI.removeAndHide(<practicallogistics2:entitytransceiver>);
+        mods.jei.JEI.removeAndHide(<practicallogistics2:sapphire>);
+        mods.jei.JEI.removeAndHide(<practicallogistics2:sapphireore>);
         
     ## Remove Recipes
     
@@ -46,6 +48,7 @@
         mods.logistics.hammer.removeRecipe(<practicallogistics2:etchedplate> * 4);
         mods.logistics.hammer.removeRecipe(<practicallogistics2:signallingplate> * 4);
         mods.logistics.hammer.removeRecipe(<practicallogistics2:wirelessplate> * 4);
+
         
         
     ## Recipe Shaped correction
