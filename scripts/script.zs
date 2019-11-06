@@ -1,7 +1,7 @@
-import mods.appliedenergistics2.Grinder;
+
 
          ## Template 
-            ## recipes.removeByRecipeName("");
+            ## 
             ## mods.jei.JEI.removeAndHide(<>);
             ## mods.jei.JEI.hide(<>);
 
@@ -396,32 +396,33 @@ import mods.appliedenergistics2.Grinder;
 
     ## Applied Energistic
 
-        mods.jei.JEI.removeAndHide(<appliedenergistics2:facade:*>);      
-        mods.jei.JEI.removeAndHide(<appliedenergistics2:creative_storage_cell>);
-        mods.jei.JEI.removeAndHide(<appliedenergistics2:view_cell>);
+        ## mods.jei.JEI.removeAndHide(<appliedenergistics2:facade:*>);      
+        ## mods.jei.JEI.removeAndHide(<appliedenergistics2:creative_storage_cell>);
+        ## mods.jei.JEI.removeAndHide(<appliedenergistics2:view_cell>);
         mods.jei.JEI.removeAndHide(<appliedenergistics2:tiny_tnt>);
-        mods.jei.JEI.removeAndHide(<appliedenergistics2:chest>);
+        ## mods.jei.JEI.removeAndHide(<appliedenergistics2:chest>);
         mods.jei.JEI.removeAndHide(<appliedenergistics2:smooth_sky_stone_chest>);
 
         ## Storage 
         
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:storage_cell_1k>);
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:storage_cell_4k>);
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:storage_cell_16k>);
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:storage_cell_64k>);
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:fluid_storage_cell_1k>);
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:fluid_storage_cell_4k>);
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:fluid_storage_cell_16k>);
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:fluid_storage_cell_64k>);
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_storage_cell_2_cubed>);
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_storage_cell_16_cubed>);
-            mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_storage_cell_128_cubed>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:storage_cell_1k>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:storage_cell_4k>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:storage_cell_16k>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:storage_cell_64k>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:fluid_storage_cell_1k>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:fluid_storage_cell_4k>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:fluid_storage_cell_16k>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:fluid_storage_cell_64k>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_storage_cell_2_cubed>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_storage_cell_16_cubed>);
+            ## mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_storage_cell_128_cubed>);
 
 
 ## GregTech Community Edition
 
 
     ## Miso 
+            mods.jei.JEI.removeAndHide(<gregtech:meta_item_2:32509>);
             mods.jei.JEI.removeAndHide(<gregtech:machine:802>);
             mods.jei.JEI.removeAndHide(<gregtech:machine:803>);
             mods.jei.JEI.removeAndHide(<gregtech:machine:804>);
@@ -496,6 +497,49 @@ import mods.appliedenergistics2.Grinder;
 
     ## Fix Recipes for Food
 
+        ## mods.minecraftfuture.Smoker.addRecipe(IItemStack input, IItemStack output);
+        ## mods.minecraftfuture.Smoker.addRecipe(<minecraft:pumpkin>, <minecraft:seeds>); // Pumpkin -> Seeds
+        
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/oat_dough>, <tfc:food/oat_bread>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/barley_dough>, <tfc:food/barley_bread>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/cornmeal_dough>, <tfc:food/cornbread>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/rice_dough>, <tfc:food/rice_bread>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/rye_dough>, <tfc:food/rye_bread>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/wheat_dough>, <tfc:food/wheat_bread>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/beef>, <tfc:food/cooked_beef>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/pork>, <tfc:food/cooked_pork>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/chicken>, <tfc:food/cooked_chicken>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/mutton>, <tfc:food/cooked_mutton>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/fish>, <tfc:food/cooked_fish>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/bear>, <tfc:food/cooked_bear>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/calamari>, <tfc:food/cooked_calamari>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/horse_meat>, <tfc:food/cooked_horse_meat>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/pheasant>, <tfc:food/cooked_pheasant>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/wolf>, <tfc:food/cooked_wolf>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/venison>, <tfc:food/cooked_venison>);
+        mods.minecraftfuture.Smoker.addRecipe(<tfc:food/rabbit>, <tfc:food/cooked_rabbit>);
+        
+    ## Furnace Fixes    
+        
+        furnace.addRecipe(<tfc:food/oat_bread>, <tfc:food/oat_dough>);
+        furnace.addRecipe(<tfc:food/barley_bread>, <tfc:food/barley_dough>);
+        furnace.addRecipe(<tfc:food/cornbread>, <tfc:food/cornmeal_dough>);
+        furnace.addRecipe(<tfc:food/rice_bread>, <tfc:food/rice_dough>);
+        furnace.addRecipe(<tfc:food/rye_bread>, <tfc:food/rye_dough>);
+        furnace.addRecipe(<tfc:food/wheat_bread>, <tfc:food/wheat_dough>);
+        furnace.addRecipe(<tfc:food/cooked_beef>, <tfc:food/beef>);
+        furnace.addRecipe(<tfc:food/cooked_pork>, <tfc:food/pork>);
+        furnace.addRecipe(<tfc:food/cooked_chicken>, <tfc:food/chicken>);
+        furnace.addRecipe(<tfc:food/cooked_mutton>, <tfc:food/mutton>);
+        furnace.addRecipe(<tfc:food/cooked_fish>, <tfc:food/fish>);
+        furnace.addRecipe(<tfc:food/cooked_bear>, <tfc:food/bear>);
+        furnace.addRecipe(<tfc:food/cooked_calamari>, <tfc:food/calamari>);
+        furnace.addRecipe(<tfc:food/cooked_horse_meat>, <tfc:food/horse_meat>);
+        furnace.addRecipe(<tfc:food/cooked_pheasant>, <tfc:food/pheasant>);
+        furnace.addRecipe(<tfc:food/cooked_wolf>, <tfc:food/wolf>);
+        furnace.addRecipe(<tfc:food/cooked_venison>, <tfc:food/venison>);
+        furnace.addRecipe(<tfc:food/cooked_rabbit>, <tfc:food/rabbit>);
+
 ## Primal Tech
 
     ## Recipe Fix
@@ -546,3 +590,22 @@ import mods.appliedenergistics2.Grinder;
             mods.jei.JEI.removeAndHide(<primal_tech:leaf_bed>);
             mods.jei.JEI.removeAndHide(<primal_tech:fibre_torch>);
             mods.jei.JEI.hide(<primal_tech:fibre_torch_lit>);
+
+## The Camping Mod
+
+    ## Remove and Hide 
+            
+            mods.jei.JEI.removeAndHide(<camping:parts:1>);
+            mods.jei.JEI.removeAndHide(<camping:parts:2>);
+            mods.jei.JEI.removeAndHide(<camping:parts:3>);
+            mods.jei.JEI.removeAndHide(<camping:parts:5>);
+            mods.jei.JEI.removeAndHide(<camping:parts:6>);
+            mods.jei.JEI.removeAndHide(<camping:campfire_wood_off>);
+            mods.jei.JEI.removeAndHide(<camping:marshmallow_stick_cooked>);
+            mods.jei.JEI.removeAndHide(<camping:hemp>);
+
+    ## Fix
+
+            recipes.removeByRecipeName("camping:parts_canvas");
+            recipes.addShapeless(<camping:parts:0>, [<ore:leather>, <camping:knife>]);
+

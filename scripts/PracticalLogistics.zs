@@ -15,6 +15,8 @@
         mods.jei.JEI.removeAndHide(<practicallogistics2:entitytransceiver>);
         mods.jei.JEI.removeAndHide(<practicallogistics2:sapphire>);
         mods.jei.JEI.removeAndHide(<practicallogistics2:sapphireore>);
+        mods.jei.JEI.hide(<minecraft:bucket>.withTag({Fluid: {FluidName: "tin", Amount: 1000}}));
+
         
     ## Remove Recipes
     

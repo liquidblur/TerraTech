@@ -40,6 +40,8 @@
         ## Hide Miso
 
             mods.jei.JEI.removeAndHide(<minecraft:barrier>);
+            mods.jei.JEI.removeAndHide(<minecraft:log>);
+            mods.jei.JEI.removeAndHide(<minecraft:log2>);
             mods.jei.JEI.removeAndHide(<minecraft:tnt>);
             mods.jei.JEI.removeAndHide(<minecraft:tnt_minecart>);
             mods.jei.JEI.removeAndHide(<minecraft:brown_mushroom>);
@@ -72,6 +74,7 @@
 
             mods.jei.JEI.hide(<minecraft:tallgrass>);
             mods.jei.JEI.hide(<minecraft:double_plant>);
+            mods.jei.JEI.removeAndHide(<minecraft:furnace>);
 
         ## Acacia Wood 
 

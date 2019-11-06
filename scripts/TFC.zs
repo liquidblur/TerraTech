@@ -1,44 +1,112 @@
 ## TerraFirmaCraft
 
+
+        ## Miso Fix
+
+            recipes.removeByRecipeName("tfc:fire_clay");
+            recipes.removeByRecipeName("minecraft:clay");
+            recipes.removeByRecipeName("tconstruct-smeltery/grout-modified");
+            recipes.removeByRecipeName("tconstruct-smeltery/grout_simple-modified");
+            ## Fix Grout
+            recipes.replaceAllOccurences(<tconstruct:soil>, <tfc:ceramics/fire_clay>);
+            recipes.replaceAllOccurences(<minecraft:clay>, <ore:clay>);
+            recipes.replaceAllOccurences(<minecraft:clay_ball>, <ore:fireClay>);
+            mods.jei.JEI.removeAndHide(<minecraft:clay>);
+            furnace.remove(<tconstruct:soil>, <tconstruct:materials:0>);
+
+            recipes.addShaped("Fire_Clay", <tfc:ceramics/fire_clay> * 8,
+                                            [[<ore:gravel>,<ore:sand>,<ore:gravel>],
+                                            [<ore:sand>,<ore:clay>,<ore:sand>],
+                                            [<ore:gravel>,<ore:sand>,<ore:gravel>]]);
+
+            recipes.addShaped("Fire_Clay_Simple", <tfc:ceramics/fire_clay> * 3,
+                                            [[<ore:clay>,<ore:gravel>,null],
+                                            [<ore:sand>,null,null],
+                                            [null,null,null]]);
+
+            recipes.removeShaped(<tfc:ceramics/fire_clay> * 8,
+                                            [[<ore:gravel>,<ore:sand>,<ore:gravel>],
+                                            [<ore:sand>,<minecraft:clay_ball>,<ore:sand>],
+                                            [<ore:gravel>,<ore:sand>,<ore:gravel>]]);
+
         ## Fluids
 
-            mods.jei.JEI.hide(<fluid:bismuth>);
-            mods.jei.JEI.hide(<fluid:bismuth_bronze>);
-            mods.jei.JEI.hide(<fluid:black_bronze>);
-            mods.jei.JEI.hide(<fluid:black_steel>);
-            mods.jei.JEI.hide(<fluid:blue_steel>);
-            mods.jei.JEI.hide(<fluid:brass>);
-            mods.jei.JEI.hide(<fluid:bronze>);
-            mods.jei.JEI.hide(<fluid:copper>);
-            mods.jei.JEI.hide(<fluid:gold>);
-            mods.jei.JEI.hide(<fluid:high_carbon_black_steel>);
-            mods.jei.JEI.hide(<fluid:high_carbon_blue_steel>);
-            mods.jei.JEI.hide(<fluid:high_carbon_red_steel>);
-            mods.jei.JEI.hide(<fluid:high_carbon_steel>);
-            mods.jei.JEI.hide(<fluid:lead>);
-            mods.jei.JEI.hide(<fluid:nickel>);
-            mods.jei.JEI.hide(<fluid:pig_iron>);
-            mods.jei.JEI.hide(<fluid:platinum>);
-            mods.jei.JEI.hide(<fluid:red_steel>);
-            mods.jei.JEI.hide(<fluid:rose_gold>);
-            mods.jei.JEI.hide(<fluid:silver>);
-            mods.jei.JEI.hide(<fluid:steel>);
-            mods.jei.JEI.hide(<fluid:sterling_silver>);
-            mods.jei.JEI.hide(<fluid:tin>);
-            mods.jei.JEI.hide(<fluid:unknown>);
-            mods.jei.JEI.hide(<fluid:weak_blue_steel>);
-            mods.jei.JEI.hide(<fluid:weak_red_steel>);
-            mods.jei.JEI.hide(<fluid:weak_steel>);
-            mods.jei.JEI.hide(<fluid:wrought_iron>);
-            mods.jei.JEI.hide(<fluid:zinc>);
+            mods.jei.JEI.removeAndHide(<fluid:bismuth>);
+            mods.jei.JEI.removeAndHide(<fluid:bismuth_bronze>);
+            mods.jei.JEI.removeAndHide(<fluid:black_bronze>);
+            mods.jei.JEI.removeAndHide(<fluid:black_steel>);
+            mods.jei.JEI.removeAndHide(<fluid:blue_steel>);
+            mods.jei.JEI.removeAndHide(<fluid:brass>);
+            mods.jei.JEI.removeAndHide(<fluid:bronze>);
+            mods.jei.JEI.removeAndHide(<fluid:copper>);
+            mods.jei.JEI.removeAndHide(<fluid:gold>);
+            mods.jei.JEI.removeAndHide(<fluid:high_carbon_black_steel>);
+            mods.jei.JEI.removeAndHide(<fluid:high_carbon_blue_steel>);
+            mods.jei.JEI.removeAndHide(<fluid:high_carbon_red_steel>);
+            mods.jei.JEI.removeAndHide(<fluid:high_carbon_steel>);
+            mods.jei.JEI.removeAndHide(<fluid:lead>);
+            mods.jei.JEI.removeAndHide(<fluid:nickel>);
+            mods.jei.JEI.removeAndHide(<fluid:pig_iron>);
+            mods.jei.JEI.removeAndHide(<fluid:platinum>);
+            mods.jei.JEI.removeAndHide(<fluid:red_steel>);
+            mods.jei.JEI.removeAndHide(<fluid:rose_gold>);
+            mods.jei.JEI.removeAndHide(<fluid:silver>);
+            mods.jei.JEI.removeAndHide(<fluid:steel>);
+            mods.jei.JEI.removeAndHide(<fluid:sterling_silver>);
+            mods.jei.JEI.removeAndHide(<fluid:tin>);
+            mods.jei.JEI.removeAndHide(<fluid:unknown>);
+            mods.jei.JEI.removeAndHide(<fluid:weak_blue_steel>);
+            mods.jei.JEI.removeAndHide(<fluid:weak_red_steel>);
+            mods.jei.JEI.removeAndHide(<fluid:weak_steel>);
+            mods.jei.JEI.removeAndHide(<fluid:wrought_iron>);
+            mods.jei.JEI.removeAndHide(<fluid:zinc>);
 
         ## TFC Miso
 
             mods.jei.JEI.removeAndHide(<tfc:charcoal_forge>);
             mods.jei.JEI.removeAndHide(<tfc:debug>);
             mods.jei.JEI.removeAndHide(<tfc:firepit>);
-            mods.jei.JEI.removeAndHide(<tfc:goldpan>);
+            mods.jei.JEI.removeAndHide(<tfc:goldpan:*>);
             mods.jei.JEI.removeAndHide(<tfc:sluice>);
+            mods.jei.JEI.removeAndHide(<tfc:blast_furnace>);
+            mods.jei.JEI.removeAndHide(<tfc:bloom/unrefined>);
+            mods.jei.JEI.removeAndHide(<tfc:bloom/refined>);
+            mods.jei.JEI.removeAndHide(<tfc:crucible>);
+            mods.jei.JEI.removeAndHide(<tfc:quern>);
+            mods.jei.JEI.removeAndHide(<tfc:handstone>);
+
+        ## Molds
+
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/ingot>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/propick_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/hammer_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/shovel_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/hoe_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/chisel_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/saw_blade>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/sword_blade>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/pick_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/javelin_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/mace_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/knife_blade>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/bowl>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/axe_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/fired/mold/scythe_blade>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/bowl>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/hammer_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/shovel_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/mace_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/chisel_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/saw_blade>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/pick_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/javelin_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/axe_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/sword_blade>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/scythe_blade>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/knife_blade>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/hoe_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/propick_head>);
+            mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/ingot>);
 
         ## Acacia
 
