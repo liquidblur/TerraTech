@@ -84,7 +84,8 @@
     
     ## Forging Hammer Recipe
 
-
+            
+            mods.logistics.hammer.addRecipe(<gregtech:meta_item_1:12152> * 2, <taam:material:0>);
             mods.logistics.hammer.addRecipe(<minecraft:obsidian> * 4, <contenttweaker:circuitbasic>);
             mods.logistics.hammer.addRecipe(<minecraft:clay_ball> * 8, <contenttweaker:circuitmold>);
             mods.logistics.hammer.addRecipe(<ore:stone>, <gregtech:meta_item_1:12328>);

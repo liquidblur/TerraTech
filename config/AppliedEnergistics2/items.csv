@@ -819,6 +819,14 @@ practicallogistics2:wirelessstorage, Wireless Storage Reader
 practicallogistics2:operator, Operator Tool
 practicallogistics2:plguide, Practical Logistics Guide
 forge:bucketfilled, %s Bucket
+adventurepack:escape_rope, Escape Rope
+adventurepack:flashlight, Flashlight
+adventurepack:lantern, Ender Lantern
+adventurepack:mining_lantern, Mining Lantern
+adventurepack:mining_helmet, Mining Helmet
+adventurepack:explorer_hat, Explorer's Hat
+adventurepack:cowboy_hat, Cowboy Hat
+adventurepack:light, tile.light.name
 appliedenergistics2:quartz_ore, Certus Quartz Ore
 appliedenergistics2:charged_quartz_ore, Charged Certus Quartz Ore
 appliedenergistics2:quartz_block, Certus Quartz Block
@@ -898,8 +906,8 @@ appliedenergistics2:material:19, Inscriber Silicon Press
 appliedenergistics2:material:20, Printed Silicon
 appliedenergistics2:material:45, Sky Stone Dust
 appliedenergistics2:material:40, Wooden Gear
-campfire:ash, Ash Residue
 campfire:campfire, Camp Fire
+campfire:ash, Ash Residue
 tconstruct:book, Materials and You
 tconstruct:soil:0, Grout
 tconstruct:soil:1, Green Slimy Mud
@@ -907,16 +915,15 @@ tconstruct:soil:2, Blue Slimy Mud
 tconstruct:soil:3, Graveyard Soil
 tconstruct:soil:4, Consecrated Soil
 tconstruct:soil:5, Slimy Magma Mud
-tconstruct:slime:0, Green Slime Block
-tconstruct:slime:1, Blue Slime Block
-tconstruct:slime:2, Purple Slime Block
+tconstruct:slime:1, Slime Block
+tconstruct:slime:2, Slime Block
 tconstruct:slime:3, Blood Slime Block
-tconstruct:slime:4, Magma Slime Block
-tconstruct:slime_congealed:0, Congealed Green Slime Block
-tconstruct:slime_congealed:1, Congealed Blue Slime Block
-tconstruct:slime_congealed:2, Congealed Purple Slime Block
-tconstruct:slime_congealed:3, Congealed Blood Slime Block
-tconstruct:slime_congealed:4, Congealed Magma Slime Block
+tconstruct:slime:4, Slime Block
+tconstruct:slime_congealed:0, Congealed Slime Block
+tconstruct:slime_congealed:1, Congealed Slime Block
+tconstruct:slime_congealed:2, Congealed Slime Block
+tconstruct:slime_congealed:3, Congealed Bloodblock
+tconstruct:slime_congealed:4, Congealed Slime Block
 tconstruct:ore:0, Cobalt Ore
 tconstruct:ore:1, Ardite Ore
 tconstruct:firewood:0, Lavawood
@@ -971,10 +978,11 @@ tconstruct:materials:18, Ball of Moss
 tconstruct:materials:19, Mending Moss
 tconstruct:materials:50, Creative Modifier
 tconstruct:edible:0, Bacon
-tconstruct:edible:1, Slime Ball
-tconstruct:edible:2, Slime Ball
+tconstruct:edible:1, Slimeball
+tconstruct:edible:2, Slimeball
 tconstruct:edible:3, Coagulated Blood
-tconstruct:edible:4, Slime Ball
+tconstruct:edible:4, Slimeball
+tconstruct:edible:5, Slimeball
 tconstruct:edible:10, Monster Jerky
 tconstruct:edible:11, Beef Jerky
 tconstruct:edible:12, Chicken Jerky
@@ -1034,34 +1042,34 @@ tconstruct:slime_vine_purple_end:0, Purple Slimy Vine
 tconstruct:slime_vine_purple_mid:0, Purple Slimy Vine
 tconstruct:slime_vine_purple:0, Purple Slimy Vine
 tconstruct:pattern:0, Blank Pattern
+tconstruct:pattern:0, Arrow Shaft Pattern
+tconstruct:pattern:0, Sharpening Kit Pattern
+tconstruct:pattern:0, Binding Pattern
+tconstruct:pattern:0, Sword Blade Pattern
+tconstruct:pattern:0, Fletching Pattern
+tconstruct:pattern:0, Bowlimb Pattern
+tconstruct:pattern:0, Tough Tool Rod Pattern
+tconstruct:pattern:0, Bowstring Pattern
+tconstruct:pattern:0, Axe Head Pattern
 tconstruct:pattern:0, Shard Pattern
+tconstruct:pattern:0, Tough Binding Pattern
+tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Arrow Head Pattern
+tconstruct:pattern:0, Pickaxe Head Pattern
+tconstruct:pattern:0, Hammer Head Pattern
+tconstruct:pattern:0, Scythe Head Pattern
+tconstruct:pattern:0, Hand Guard Pattern
+tconstruct:pattern:0, Kama Head Pattern
+tconstruct:pattern:0, Broad Axe Head Pattern
+tconstruct:pattern:0, Cross Guard Pattern
+tconstruct:pattern:0, Large Sword Blade Pattern
+tconstruct:pattern:0, Large Plate Pattern
 tconstruct:pattern:0, Shovel Head Pattern
 tconstruct:pattern:0, Wide Guard Pattern
-tconstruct:pattern:0, Large Plate Pattern
-tconstruct:pattern:0, Bowlimb Pattern
-tconstruct:pattern:0, Pickaxe Head Pattern
-tconstruct:pattern:0, Sword Blade Pattern
-tconstruct:pattern:0, Cross Guard Pattern
-tconstruct:pattern:0, Kama Head Pattern
-tconstruct:pattern:0, Excavator Head Pattern
-tconstruct:pattern:0, Bowstring Pattern
-tconstruct:pattern:0, Binding Pattern
-tconstruct:pattern:0, Tough Binding Pattern
-tconstruct:pattern:0, Arrow Shaft Pattern
-tconstruct:pattern:0, Hammer Head Pattern
-tconstruct:pattern:0, Sharpening Kit Pattern
-tconstruct:pattern:0, Large Sword Blade Pattern
-tconstruct:pattern:0, Arrow Head Pattern
-tconstruct:pattern:0, Scythe Head Pattern
-tconstruct:pattern:0, Knife Blade Pattern
-tconstruct:pattern:0, Tool Rod Pattern
-tconstruct:pattern:0, Hand Guard Pattern
-tconstruct:pattern:0, Fletching Pattern
-tconstruct:pattern:0, Broad Axe Head Pattern
-tconstruct:pattern:0, Tough Tool Rod Pattern
 tconstruct:pattern:0, Sign Plate Pattern
-tconstruct:pattern:0, Axe Head Pattern
-tconstruct:pattern:0, Pan Pattern
+tconstruct:pattern:0, Excavator Head Pattern
+tconstruct:pattern:0, Tool Rod Pattern
+tconstruct:pattern:0, Knife Blade Pattern
 tconstruct:shard:0, Wooden Shard
 tconstruct:shard:0, Stone Shard
 tconstruct:shard:0, Flint Shard
@@ -3222,11 +3230,11 @@ tconstruct:smeltery_controller:0, Smeltery Controller
 tconstruct:seared_tank:0, Seared Tank
 tconstruct:seared_tank:1, Seared Gauge
 tconstruct:seared_tank:2, Seared Window
-tconstruct:faucet:0, Faucet
+tconstruct:faucet:0, Seared Faucet
 tconstruct:channel:0, Casting Channel
 tconstruct:casting:0, Casting Table
 tconstruct:casting:1, Casting Basin
-tconstruct:smeltery_io:0, Smeltery Drain
+tconstruct:smeltery_io:0, Seared Drain
 tconstruct:seared_glass:0, Seared Glass
 tconstruct:seared_furnace_controller:0, Seared Furnace Controller
 tconstruct:tinker_tank_controller:0, Tinker Tank Controller
@@ -3255,62 +3263,62 @@ tconstruct:seared_stairs_road:0, Seared Road Stairs
 tconstruct:seared_stairs_tile:0, Seared Tile Stairs
 tconstruct:seared_stairs_creeper:0, Seared Creeperface Stairs
 tconstruct:cast:0, Blank Cast
+tconstruct:cast:0, Sharpening Kit Cast
+tconstruct:cast:0, Binding Cast
+tconstruct:cast:0, Sword Blade Cast
+tconstruct:cast:0, Bowlimb Cast
+tconstruct:cast:0, Tough Tool Rod Cast
+tconstruct:cast:0, Axe Head Cast
 tconstruct:cast:0, Shard Cast
+tconstruct:cast:0, Tough Binding Cast
+tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Arrow Head Cast
+tconstruct:cast:0, Pickaxe Head Cast
+tconstruct:cast:0, Hammer Head Cast
+tconstruct:cast:0, Scythe Head Cast
+tconstruct:cast:0, Hand Guard Cast
+tconstruct:cast:0, Kama Head Cast
+tconstruct:cast:0, Broad Axe Head Cast
+tconstruct:cast:0, Cross Guard Cast
+tconstruct:cast:0, Large Sword Blade Cast
+tconstruct:cast:0, Large Plate Cast
 tconstruct:cast:0, Shovel Head Cast
 tconstruct:cast:0, Wide Guard Cast
-tconstruct:cast:0, Large Plate Cast
-tconstruct:cast:0, Bowlimb Cast
-tconstruct:cast:0, Pickaxe Head Cast
-tconstruct:cast:0, Sword Blade Cast
-tconstruct:cast:0, Cross Guard Cast
-tconstruct:cast:0, Kama Head Cast
-tconstruct:cast:0, Excavator Head Cast
-tconstruct:cast:0, Binding Cast
-tconstruct:cast:0, Tough Binding Cast
-tconstruct:cast:0, Hammer Head Cast
-tconstruct:cast:0, Sharpening Kit Cast
-tconstruct:cast:0, Large Sword Blade Cast
-tconstruct:cast:0, Arrow Head Cast
-tconstruct:cast:0, Scythe Head Cast
-tconstruct:cast:0, Knife Blade Cast
-tconstruct:cast:0, Tool Rod Cast
-tconstruct:cast:0, Hand Guard Cast
-tconstruct:cast:0, Broad Axe Head Cast
-tconstruct:cast:0, Tough Tool Rod Cast
 tconstruct:cast:0, Sign Plate Cast
-tconstruct:cast:0, Axe Head Cast
-tconstruct:cast:0, Pan Cast
+tconstruct:cast:0, Excavator Head Cast
+tconstruct:cast:0, Tool Rod Cast
+tconstruct:cast:0, Knife Blade Cast
 tconstruct:cast_custom:0, Ingot Cast
 tconstruct:cast_custom:1, Nugget Cast
 tconstruct:cast_custom:2, Gem Cast
 tconstruct:cast_custom:3, Plate Cast
 tconstruct:cast_custom:4, Gear Cast
 tconstruct:clay_cast:0, item.tconstruct.clay_cast.blank
+tconstruct:clay_cast:0, Sharpening Kit Clay Cast
+tconstruct:clay_cast:0, Binding Clay Cast
+tconstruct:clay_cast:0, Sword Blade Clay Cast
+tconstruct:clay_cast:0, Bowlimb Clay Cast
+tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
+tconstruct:clay_cast:0, Axe Head Clay Cast
 tconstruct:clay_cast:0, Shard Clay Cast
+tconstruct:clay_cast:0, Tough Binding Clay Cast
+tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Arrow Head Clay Cast
+tconstruct:clay_cast:0, Pickaxe Head Clay Cast
+tconstruct:clay_cast:0, Hammer Head Clay Cast
+tconstruct:clay_cast:0, Scythe Head Clay Cast
+tconstruct:clay_cast:0, Hand Guard Clay Cast
+tconstruct:clay_cast:0, Kama Head Clay Cast
+tconstruct:clay_cast:0, Broad Axe Head Clay Cast
+tconstruct:clay_cast:0, Cross Guard Clay Cast
+tconstruct:clay_cast:0, Large Sword Blade Clay Cast
+tconstruct:clay_cast:0, Large Plate Clay Cast
 tconstruct:clay_cast:0, Shovel Head Clay Cast
 tconstruct:clay_cast:0, Wide Guard Clay Cast
-tconstruct:clay_cast:0, Large Plate Clay Cast
-tconstruct:clay_cast:0, Bowlimb Clay Cast
-tconstruct:clay_cast:0, Pickaxe Head Clay Cast
-tconstruct:clay_cast:0, Sword Blade Clay Cast
-tconstruct:clay_cast:0, Cross Guard Clay Cast
-tconstruct:clay_cast:0, Kama Head Clay Cast
-tconstruct:clay_cast:0, Excavator Head Clay Cast
-tconstruct:clay_cast:0, Binding Clay Cast
-tconstruct:clay_cast:0, Tough Binding Clay Cast
-tconstruct:clay_cast:0, Hammer Head Clay Cast
-tconstruct:clay_cast:0, Sharpening Kit Clay Cast
-tconstruct:clay_cast:0, Large Sword Blade Clay Cast
-tconstruct:clay_cast:0, Arrow Head Clay Cast
-tconstruct:clay_cast:0, Scythe Head Clay Cast
-tconstruct:clay_cast:0, Knife Blade Clay Cast
-tconstruct:clay_cast:0, Tool Rod Clay Cast
-tconstruct:clay_cast:0, Hand Guard Clay Cast
-tconstruct:clay_cast:0, Broad Axe Head Clay Cast
-tconstruct:clay_cast:0, Tough Tool Rod Clay Cast
 tconstruct:clay_cast:0, Sign Plate Clay Cast
-tconstruct:clay_cast:0, Axe Head Clay Cast
-tconstruct:clay_cast:0, Pan Clay Cast
+tconstruct:clay_cast:0, Excavator Head Clay Cast
+tconstruct:clay_cast:0, Tool Rod Clay Cast
+tconstruct:clay_cast:0, Knife Blade Clay Cast
 tconstruct:stone_torch:0, Stone Torch
 tconstruct:stone_ladder:0, Stone Ladder
 tconstruct:punji:0, Punji Sticks
@@ -3319,11 +3327,11 @@ tconstruct:rack:1, Drying Rack
 tconstruct:wood_rail:0, Wooden Rail
 tconstruct:wood_rail_trapdoor:0, Wooden Rail with a Trapdoor
 tconstruct:wooden_hopper:0, Wooden Hopper
-tconstruct:slime_channel:0, Green Slime Channel
-tconstruct:slime_channel:1, Blue Slime Channel
-tconstruct:slime_channel:2, Purple Slime Channel
+tconstruct:slime_channel:0, Slime Channel
+tconstruct:slime_channel:1, Slime Channel
+tconstruct:slime_channel:2, Slime Channel
 tconstruct:slime_channel:3, Blood Channel
-tconstruct:slime_channel:4, Magma Slime Channel
+tconstruct:slime_channel:4, Slime Channel
 tconstruct:dried_clay:0, Dried Clay
 tconstruct:dried_clay:1, Dried Bricks
 tconstruct:dried_clay_slab:0, Dried Clay Slab
@@ -4486,86 +4494,22 @@ gregtech:log:0, Rubber Wood
 gregtech:leaves:0, Rubber Tree Leaves
 gregtech:sapling:0, Rubber Tree Sapling
 gregtech:crusher_blade, Crusher Blade
-gregtech:compressed_9:0, Block of Wulfenite
-gregtech:compressed_9:1, Block of Yellow Limonite
-gregtech:compressed_9:2, Block of Yttrium Barium Cuprate
-gregtech:compressed_9:3, Block of Certus Quartz
-gregtech:compressed_9:4, Block of Quartzite
-gregtech:compressed_9:5, Block of Graphite
-gregtech:compressed_9:6, Block of Graphene
-gregtech:compressed_9:7, Block of Jasper
-gregtech:compressed_9:8, Block of Osmiridium
-gregtech:compressed_9:9, Block of Perlite
-gregtech:compressed_9:10, Block of Lignite Coal
-gregtech:compressed_9:11, Block of Olivine
-gregtech:compressed_9:12, Block of Opal
-gregtech:compressed_9:13, Block of Amethyst
-gregtech:compressed_9:14, Block of Enderpearl
-gregtech:compressed_9:15, Block of Endereye
-gregtech:compressed_15:0, Block of Nether Star
-gregtech:compressed_15:1, Block of Cocoa
-gregtech:compressed_15:2, Block of Ytterbium
-gregtech:compressed_15:3, Block of Fireclay
-gregtech:compressed_15:4, Block of Coal Coke
-gregtech:compressed_15:5, Block of Tenorite
-gregtech:compressed_15:6, Block of Cuprite
-gregtech:compressed_15:7, Block of Bornite
-gregtech:compressed_15:8, Block of Chalcocite
-gregtech:compressed_15:9, Block of Enargite
-gregtech:compressed_15:10, Block of Tennantite
-gregtech:compressed_15:11, Block of Borosilicate Glass
-gregtech:compressed_15:12, Block of Sodium Hydroxide
-gregtech:compressed_15:13, Block of Quicklime
-gregtech:compressed_15:14, Block of Sodium Bisulfate
-gregtech:compressed_15:15, Block of Silicone Rubber
-gregtech:compressed_8:0, Block of Soldering Alloy
-gregtech:compressed_8:1, Block of Spessartine
-gregtech:compressed_8:2, Block of Sphalerite
-gregtech:compressed_8:3, Block of Stainless Steel
-gregtech:compressed_8:4, Block of Steel
-gregtech:compressed_8:5, Block of Stibnite
-gregtech:compressed_8:6, Block of Tanzanite
-gregtech:compressed_8:7, Block of Tetrahedrite
-gregtech:compressed_8:8, Block of Tin Alloy
-gregtech:compressed_8:9, Block of Topaz
-gregtech:compressed_8:10, Block of Tungstate
-gregtech:compressed_8:11, Block of Ultimet
-gregtech:compressed_8:12, Block of Uraninite
-gregtech:compressed_8:13, Block of Uvarovite
-gregtech:compressed_8:14, Block of Vanadium-Gallium
-gregtech:compressed_8:15, Block of Wrought Iron
-gregtech:compressed_12:0, Block of Basaltic Mineral Sand
-gregtech:compressed_12:1, Block of Granitic Mineral Sand
-gregtech:compressed_12:2, Block of Garnet Sand
-gregtech:compressed_12:3, Block of Quartz Sand
-gregtech:compressed_12:4, Block of Bastnasite
-gregtech:compressed_12:5, Block of Pentlandite
-gregtech:compressed_12:6, Block of Spodumene
-gregtech:compressed_12:7, Block of Pollucite
-gregtech:compressed_12:8, Block of Lepidolite
-gregtech:compressed_12:9, Block of Glauconite
-gregtech:compressed_12:10, Block of Glauconite Sand
-gregtech:compressed_12:11, Block of Vermiculite
-gregtech:compressed_12:12, Block of Bentonite
-gregtech:compressed_12:13, Block of Fullers Earth
-gregtech:compressed_12:14, Block of Pitchblende
-gregtech:compressed_12:15, Block of Monazite
-gregtech:compressed_16:0, Block of Polydimethylsiloxane
-gregtech:compressed_16:1, Block of Polystyrene
-gregtech:compressed_16:2, Block of Raw Styrene-Butadiene Rubber
-gregtech:compressed_16:3, Block of Styrene-Butadiene Rubber
-gregtech:compressed_16:4, Block of Potash
-gregtech:compressed_16:5, Block of Soda Ash
-gregtech:compressed_16:6, Block of Gallium Arsenide
-gregtech:compressed_16:7, Block of Polyphenylene Sulfide
-gregtech:compressed_16:8, Block of Indium Gallium Phosphide
-gregtech:compressed_16:9, Block of Platinum Group Sludge
-gregtech:compressed_16:10, Block of Ferrite Mixture
-gregtech:compressed_16:11, Block of Nickel Zinc Ferrite
-gregtech:compressed_16:12, Block of Magnesia
-gregtech:compressed_16:13, Block of Phosphorous Pentoxide
-gregtech:compressed_16:14, Block of Fiber-Reinforced Epoxy Resin
-gregtech:compressed_16:15, Block of Lignite Coke
+gregtech:compressed_7:0, Block of Polycaprolactam
+gregtech:compressed_7:1, Block of Polytetrafluoroethylene
+gregtech:compressed_7:2, Block of Powellite
+gregtech:compressed_7:3, Block of Pyrite
+gregtech:compressed_7:4, Block of Pyrolusite
+gregtech:compressed_7:5, Block of Pyrope
+gregtech:compressed_7:6, Block of Rock Salt
+gregtech:compressed_7:7, Block of Rubber
+gregtech:compressed_7:8, Block of Ruby
+gregtech:compressed_7:9, Block of Salt
+gregtech:compressed_7:10, Block of Saltpeter
+gregtech:compressed_7:11, Block of Sapphire
+gregtech:compressed_7:12, Block of Scheelite
+gregtech:compressed_7:13, Block of Silicon Dioxide
+gregtech:compressed_7:14, Block of Sodalite
+gregtech:compressed_7:15, Block of Sodium Sulfide
 gregtech:compressed_5:0, Block of Charcoal
 gregtech:compressed_5:1, Block of Chromite
 gregtech:compressed_5:2, Block of Cinnabar
@@ -4598,102 +4542,6 @@ gregtech:compressed_0:12, Block of Cerium
 gregtech:compressed_0:13, Block of Chrome
 gregtech:compressed_0:14, Block of Cobalt
 gregtech:compressed_0:15, Block of Copper
-gregtech:compressed_6:0, Block of Invar
-gregtech:compressed_6:1, Block of Kanthal
-gregtech:compressed_6:2, Block of Lazurite
-gregtech:compressed_6:3, Block of Magnalium
-gregtech:compressed_6:4, Block of Magnesite
-gregtech:compressed_6:5, Block of Magnetite
-gregtech:compressed_6:6, Block of Molybdenite
-gregtech:compressed_6:7, Block of Nichrome
-gregtech:compressed_6:8, Block of Niobium Nitride
-gregtech:compressed_6:9, Block of Niobium-Titanium
-gregtech:compressed_6:10, Block of Obsidian
-gregtech:compressed_6:11, Block of Phosphate
-gregtech:compressed_6:12, Block of Pig Iron
-gregtech:compressed_6:13, Block of Polyethylene
-gregtech:compressed_6:14, Block of Epoxy Resin
-gregtech:compressed_6:15, Block of Polysiloxane
-gregtech:compressed_14:0, Block of Magnetic Neodymium
-gregtech:compressed_14:1, Block of Tungstencarbide
-gregtech:compressed_14:2, Block of Vanadiumsteel
-gregtech:compressed_14:3, Block of HSS-G
-gregtech:compressed_14:4, Block of HSS-E
-gregtech:compressed_14:5, Block of HSS-S
-gregtech:compressed_14:6, Block of Naquadah
-gregtech:compressed_14:7, Block of Naquadah Alloy
-gregtech:compressed_14:8, Block of Enriched Naquadah
-gregtech:compressed_14:9, Block of Naquadria
-gregtech:compressed_14:10, Block of Tritanium
-gregtech:compressed_14:11, Block of Duranium
-gregtech:compressed_14:12, Block of Borax
-gregtech:compressed_14:13, Block of Gunpowder
-gregtech:compressed_14:14, Block of Paper
-gregtech:compressed_14:15, Block of Rare Earth
-gregtech:compressed_1:0, Block of Dysprosium
-gregtech:compressed_1:1, Block of Erbium
-gregtech:compressed_1:2, Block of Europium
-gregtech:compressed_1:3, Block of Gadolinium
-gregtech:compressed_1:4, Block of Gallium
-gregtech:compressed_1:5, Block of Holmium
-gregtech:compressed_1:6, Block of Indium
-gregtech:compressed_1:7, Block of Iridium
-gregtech:compressed_1:8, Block of Lanthanum
-gregtech:compressed_1:9, Block of Lead
-gregtech:compressed_1:10, Block of Lithium
-gregtech:compressed_1:11, Block of Lutetium
-gregtech:compressed_1:12, Block of Magnesium
-gregtech:compressed_1:13, Block of Manganese
-gregtech:compressed_1:14, Block of Molybdenum
-gregtech:compressed_1:15, Block of Neodymium
-gregtech:compressed_7:0, Block of Polycaprolactam
-gregtech:compressed_7:1, Block of Polytetrafluoroethylene
-gregtech:compressed_7:2, Block of Powellite
-gregtech:compressed_7:3, Block of Pyrite
-gregtech:compressed_7:4, Block of Pyrolusite
-gregtech:compressed_7:5, Block of Pyrope
-gregtech:compressed_7:6, Block of Rock Salt
-gregtech:compressed_7:7, Block of Rubber
-gregtech:compressed_7:8, Block of Ruby
-gregtech:compressed_7:9, Block of Salt
-gregtech:compressed_7:10, Block of Saltpeter
-gregtech:compressed_7:11, Block of Sapphire
-gregtech:compressed_7:12, Block of Scheelite
-gregtech:compressed_7:13, Block of Silicon Dioxide
-gregtech:compressed_7:14, Block of Sodalite
-gregtech:compressed_7:15, Block of Sodium Sulfide
-gregtech:compressed_4:0, Block of Zinc
-gregtech:compressed_4:1, Block of Almandine
-gregtech:compressed_4:2, Block of Andradite
-gregtech:compressed_4:3, Block of Annealed Copper
-gregtech:compressed_4:4, Block of Asbestos
-gregtech:compressed_4:5, Block of Ashes
-gregtech:compressed_4:6, Block of Banded Iron
-gregtech:compressed_4:7, Block of Battery Alloy
-gregtech:compressed_4:8, Block of Blue Topaz
-gregtech:compressed_4:9, Block of Brass
-gregtech:compressed_4:10, Block of Bronze
-gregtech:compressed_4:11, Block of Brown Limonite
-gregtech:compressed_4:12, Block of Calcite
-gregtech:compressed_4:13, Block of Cassiterite
-gregtech:compressed_4:14, Block of Cassiterite Sand
-gregtech:compressed_4:15, Block of Chalcopyrite
-gregtech:compressed_13:0, Block of Malachite
-gregtech:compressed_13:1, Block of Mirabilite
-gregtech:compressed_13:2, Block of Mica
-gregtech:compressed_13:3, Block of Trona
-gregtech:compressed_13:4, Block of Barite
-gregtech:compressed_13:5, Block of Gypsum
-gregtech:compressed_13:6, Block of Alunite
-gregtech:compressed_13:7, Block of Dolomite
-gregtech:compressed_13:8, Block of Wollastonite
-gregtech:compressed_13:9, Block of Zeolite
-gregtech:compressed_13:10, Block of Kyanite
-gregtech:compressed_13:11, Block of Kaolinite
-gregtech:compressed_13:12, Block of Talc
-gregtech:compressed_13:13, Block of Soapstone
-gregtech:compressed_13:14, Block of Magnetic Iron
-gregtech:compressed_13:15, Block of Magnetic Steel
 gregtech:compressed_11:0, Block of Cobalt Brass
 gregtech:compressed_11:1, Block of Phosphor
 gregtech:compressed_11:2, Block of Basalt
@@ -4710,38 +4558,38 @@ gregtech:compressed_11:12, Block of Black Granite
 gregtech:compressed_11:13, Block of Chrysotile
 gregtech:compressed_11:14, Block of Realgar
 gregtech:compressed_11:15, Block of Vanadium Magnetite
-gregtech:compressed_10:0, Block of Flint
-gregtech:compressed_10:1, Block of Diatomite
-gregtech:compressed_10:2, Block of Niter
-gregtech:compressed_10:3, Block of Tantalite
-gregtech:compressed_10:4, Block of Hydrated Coal
-gregtech:compressed_10:5, Block of Apatite
-gregtech:compressed_10:6, Block of Sterling Silver
-gregtech:compressed_10:7, Block of Rose Gold
-gregtech:compressed_10:8, Block of Black Bronze
-gregtech:compressed_10:9, Block of Bismuth Bronze
-gregtech:compressed_10:10, Block of Black Steel
-gregtech:compressed_10:11, Block of Red Steel
-gregtech:compressed_10:12, Block of Blue Steel
-gregtech:compressed_10:13, Block of Damascus Steel
-gregtech:compressed_10:14, Block of Tungstensteel
-gregtech:compressed_10:15, Block of Red Alloy
-gregtech:compressed_2:0, Block of Darmstadtium
-gregtech:compressed_2:1, Block of Nickel
-gregtech:compressed_2:2, Block of Niobium
-gregtech:compressed_2:3, Block of Osmium
-gregtech:compressed_2:4, Block of Palladium
-gregtech:compressed_2:5, Block of Phosphorus
-gregtech:compressed_2:6, Block of Platinum
-gregtech:compressed_2:7, Block of Plutonium 244
-gregtech:compressed_2:8, Block of Plutonium 241
-gregtech:compressed_2:9, Block of Potassium
-gregtech:compressed_2:10, Block of Praseodymium
-gregtech:compressed_2:11, Block of Promethium
-gregtech:compressed_2:12, Block of Rubidium
-gregtech:compressed_2:13, Block of Samarium
-gregtech:compressed_2:14, Block of Scandium
-gregtech:compressed_2:15, Block of Silicon
+gregtech:compressed_13:0, Block of Malachite
+gregtech:compressed_13:1, Block of Mirabilite
+gregtech:compressed_13:2, Block of Mica
+gregtech:compressed_13:3, Block of Trona
+gregtech:compressed_13:4, Block of Barite
+gregtech:compressed_13:5, Block of Gypsum
+gregtech:compressed_13:6, Block of Alunite
+gregtech:compressed_13:7, Block of Dolomite
+gregtech:compressed_13:8, Block of Wollastonite
+gregtech:compressed_13:9, Block of Zeolite
+gregtech:compressed_13:10, Block of Kyanite
+gregtech:compressed_13:11, Block of Kaolinite
+gregtech:compressed_13:12, Block of Talc
+gregtech:compressed_13:13, Block of Soapstone
+gregtech:compressed_13:14, Block of Magnetic Iron
+gregtech:compressed_13:15, Block of Magnetic Steel
+gregtech:compressed_1:0, Block of Dysprosium
+gregtech:compressed_1:1, Block of Erbium
+gregtech:compressed_1:2, Block of Europium
+gregtech:compressed_1:3, Block of Gadolinium
+gregtech:compressed_1:4, Block of Gallium
+gregtech:compressed_1:5, Block of Holmium
+gregtech:compressed_1:6, Block of Indium
+gregtech:compressed_1:7, Block of Iridium
+gregtech:compressed_1:8, Block of Lanthanum
+gregtech:compressed_1:9, Block of Lead
+gregtech:compressed_1:10, Block of Lithium
+gregtech:compressed_1:11, Block of Lutetium
+gregtech:compressed_1:12, Block of Magnesium
+gregtech:compressed_1:13, Block of Manganese
+gregtech:compressed_1:14, Block of Molybdenum
+gregtech:compressed_1:15, Block of Neodymium
 gregtech:compressed_3:0, Block of Silver
 gregtech:compressed_3:1, Block of Sodium
 gregtech:compressed_3:2, Block of Strontium
@@ -4758,25 +4606,169 @@ gregtech:compressed_3:12, Block of Uranium 238
 gregtech:compressed_3:13, Block of Uranium 235
 gregtech:compressed_3:14, Block of Vanadium
 gregtech:compressed_3:15, Block of Yttrium
+gregtech:compressed_2:0, Block of Darmstadtium
+gregtech:compressed_2:1, Block of Nickel
+gregtech:compressed_2:2, Block of Niobium
+gregtech:compressed_2:3, Block of Osmium
+gregtech:compressed_2:4, Block of Palladium
+gregtech:compressed_2:5, Block of Phosphorus
+gregtech:compressed_2:6, Block of Platinum
+gregtech:compressed_2:7, Block of Plutonium 244
+gregtech:compressed_2:8, Block of Plutonium 241
+gregtech:compressed_2:9, Block of Potassium
+gregtech:compressed_2:10, Block of Praseodymium
+gregtech:compressed_2:11, Block of Promethium
+gregtech:compressed_2:12, Block of Rubidium
+gregtech:compressed_2:13, Block of Samarium
+gregtech:compressed_2:14, Block of Scandium
+gregtech:compressed_2:15, Block of Silicon
 gregtech:compressed_17:0, Block of Meat
 gregtech:compressed_17:1, Block of Polyvinyl Chloride
 gregtech:compressed_17:2, Block of Neutronium
-gregtech:frame_darmstadtium:0, Darmstadtium Frame
-gregtech:frame_darmstadtium:1, Darmstadtium Frame
-gregtech:frame_darmstadtium:2, Darmstadtium Frame
-gregtech:frame_darmstadtium:3, Darmstadtium Frame
-gregtech:frame_darmstadtium:4, Darmstadtium Frame
-gregtech:frame_darmstadtium:5, Darmstadtium Frame
-gregtech:frame_darmstadtium:6, Darmstadtium Frame
-gregtech:frame_darmstadtium:7, Darmstadtium Frame
-gregtech:frame_darmstadtium:8, Darmstadtium Frame
-gregtech:frame_darmstadtium:9, Darmstadtium Frame
-gregtech:frame_darmstadtium:10, Darmstadtium Frame
-gregtech:frame_darmstadtium:11, Darmstadtium Frame
-gregtech:frame_darmstadtium:12, Darmstadtium Frame
-gregtech:frame_darmstadtium:13, Darmstadtium Frame
-gregtech:frame_darmstadtium:14, Darmstadtium Frame
-gregtech:frame_darmstadtium:15, Darmstadtium Frame
+gregtech:compressed_4:0, Block of Zinc
+gregtech:compressed_4:1, Block of Almandine
+gregtech:compressed_4:2, Block of Andradite
+gregtech:compressed_4:3, Block of Annealed Copper
+gregtech:compressed_4:4, Block of Asbestos
+gregtech:compressed_4:5, Block of Ashes
+gregtech:compressed_4:6, Block of Banded Iron
+gregtech:compressed_4:7, Block of Battery Alloy
+gregtech:compressed_4:8, Block of Blue Topaz
+gregtech:compressed_4:9, Block of Brass
+gregtech:compressed_4:10, Block of Bronze
+gregtech:compressed_4:11, Block of Brown Limonite
+gregtech:compressed_4:12, Block of Calcite
+gregtech:compressed_4:13, Block of Cassiterite
+gregtech:compressed_4:14, Block of Cassiterite Sand
+gregtech:compressed_4:15, Block of Chalcopyrite
+gregtech:compressed_9:0, Block of Wulfenite
+gregtech:compressed_9:1, Block of Yellow Limonite
+gregtech:compressed_9:2, Block of Yttrium Barium Cuprate
+gregtech:compressed_9:3, Block of Certus Quartz
+gregtech:compressed_9:4, Block of Quartzite
+gregtech:compressed_9:5, Block of Graphite
+gregtech:compressed_9:6, Block of Graphene
+gregtech:compressed_9:7, Block of Jasper
+gregtech:compressed_9:8, Block of Osmiridium
+gregtech:compressed_9:9, Block of Perlite
+gregtech:compressed_9:10, Block of Lignite Coal
+gregtech:compressed_9:11, Block of Olivine
+gregtech:compressed_9:12, Block of Opal
+gregtech:compressed_9:13, Block of Amethyst
+gregtech:compressed_9:14, Block of Enderpearl
+gregtech:compressed_9:15, Block of Endereye
+gregtech:compressed_16:0, Block of Polydimethylsiloxane
+gregtech:compressed_16:1, Block of Polystyrene
+gregtech:compressed_16:2, Block of Raw Styrene-Butadiene Rubber
+gregtech:compressed_16:3, Block of Styrene-Butadiene Rubber
+gregtech:compressed_16:4, Block of Potash
+gregtech:compressed_16:5, Block of Soda Ash
+gregtech:compressed_16:6, Block of Gallium Arsenide
+gregtech:compressed_16:7, Block of Polyphenylene Sulfide
+gregtech:compressed_16:8, Block of Indium Gallium Phosphide
+gregtech:compressed_16:9, Block of Platinum Group Sludge
+gregtech:compressed_16:10, Block of Ferrite Mixture
+gregtech:compressed_16:11, Block of Nickel Zinc Ferrite
+gregtech:compressed_16:12, Block of Magnesia
+gregtech:compressed_16:13, Block of Phosphorous Pentoxide
+gregtech:compressed_16:14, Block of Fiber-Reinforced Epoxy Resin
+gregtech:compressed_16:15, Block of Lignite Coke
+gregtech:compressed_15:0, Block of Nether Star
+gregtech:compressed_15:1, Block of Cocoa
+gregtech:compressed_15:2, Block of Ytterbium
+gregtech:compressed_15:3, Block of Fireclay
+gregtech:compressed_15:4, Block of Coal Coke
+gregtech:compressed_15:5, Block of Tenorite
+gregtech:compressed_15:6, Block of Cuprite
+gregtech:compressed_15:7, Block of Bornite
+gregtech:compressed_15:8, Block of Chalcocite
+gregtech:compressed_15:9, Block of Enargite
+gregtech:compressed_15:10, Block of Tennantite
+gregtech:compressed_15:11, Block of Borosilicate Glass
+gregtech:compressed_15:12, Block of Sodium Hydroxide
+gregtech:compressed_15:13, Block of Quicklime
+gregtech:compressed_15:14, Block of Sodium Bisulfate
+gregtech:compressed_15:15, Block of Silicone Rubber
+gregtech:compressed_12:0, Block of Basaltic Mineral Sand
+gregtech:compressed_12:1, Block of Granitic Mineral Sand
+gregtech:compressed_12:2, Block of Garnet Sand
+gregtech:compressed_12:3, Block of Quartz Sand
+gregtech:compressed_12:4, Block of Bastnasite
+gregtech:compressed_12:5, Block of Pentlandite
+gregtech:compressed_12:6, Block of Spodumene
+gregtech:compressed_12:7, Block of Pollucite
+gregtech:compressed_12:8, Block of Lepidolite
+gregtech:compressed_12:9, Block of Glauconite
+gregtech:compressed_12:10, Block of Glauconite Sand
+gregtech:compressed_12:11, Block of Vermiculite
+gregtech:compressed_12:12, Block of Bentonite
+gregtech:compressed_12:13, Block of Fullers Earth
+gregtech:compressed_12:14, Block of Pitchblende
+gregtech:compressed_12:15, Block of Monazite
+gregtech:compressed_14:0, Block of Magnetic Neodymium
+gregtech:compressed_14:1, Block of Tungstencarbide
+gregtech:compressed_14:2, Block of Vanadiumsteel
+gregtech:compressed_14:3, Block of HSS-G
+gregtech:compressed_14:4, Block of HSS-E
+gregtech:compressed_14:5, Block of HSS-S
+gregtech:compressed_14:6, Block of Naquadah
+gregtech:compressed_14:7, Block of Naquadah Alloy
+gregtech:compressed_14:8, Block of Enriched Naquadah
+gregtech:compressed_14:9, Block of Naquadria
+gregtech:compressed_14:10, Block of Tritanium
+gregtech:compressed_14:11, Block of Duranium
+gregtech:compressed_14:12, Block of Borax
+gregtech:compressed_14:13, Block of Gunpowder
+gregtech:compressed_14:14, Block of Paper
+gregtech:compressed_14:15, Block of Rare Earth
+gregtech:compressed_6:0, Block of Invar
+gregtech:compressed_6:1, Block of Kanthal
+gregtech:compressed_6:2, Block of Lazurite
+gregtech:compressed_6:3, Block of Magnalium
+gregtech:compressed_6:4, Block of Magnesite
+gregtech:compressed_6:5, Block of Magnetite
+gregtech:compressed_6:6, Block of Molybdenite
+gregtech:compressed_6:7, Block of Nichrome
+gregtech:compressed_6:8, Block of Niobium Nitride
+gregtech:compressed_6:9, Block of Niobium-Titanium
+gregtech:compressed_6:10, Block of Obsidian
+gregtech:compressed_6:11, Block of Phosphate
+gregtech:compressed_6:12, Block of Pig Iron
+gregtech:compressed_6:13, Block of Polyethylene
+gregtech:compressed_6:14, Block of Epoxy Resin
+gregtech:compressed_6:15, Block of Polysiloxane
+gregtech:compressed_8:0, Block of Soldering Alloy
+gregtech:compressed_8:1, Block of Spessartine
+gregtech:compressed_8:2, Block of Sphalerite
+gregtech:compressed_8:3, Block of Stainless Steel
+gregtech:compressed_8:4, Block of Steel
+gregtech:compressed_8:5, Block of Stibnite
+gregtech:compressed_8:6, Block of Tanzanite
+gregtech:compressed_8:7, Block of Tetrahedrite
+gregtech:compressed_8:8, Block of Tin Alloy
+gregtech:compressed_8:9, Block of Topaz
+gregtech:compressed_8:10, Block of Tungstate
+gregtech:compressed_8:11, Block of Ultimet
+gregtech:compressed_8:12, Block of Uraninite
+gregtech:compressed_8:13, Block of Uvarovite
+gregtech:compressed_8:14, Block of Vanadium-Gallium
+gregtech:compressed_8:15, Block of Wrought Iron
+gregtech:compressed_10:0, Block of Flint
+gregtech:compressed_10:1, Block of Diatomite
+gregtech:compressed_10:2, Block of Niter
+gregtech:compressed_10:3, Block of Tantalite
+gregtech:compressed_10:4, Block of Hydrated Coal
+gregtech:compressed_10:5, Block of Apatite
+gregtech:compressed_10:6, Block of Sterling Silver
+gregtech:compressed_10:7, Block of Rose Gold
+gregtech:compressed_10:8, Block of Black Bronze
+gregtech:compressed_10:9, Block of Bismuth Bronze
+gregtech:compressed_10:10, Block of Black Steel
+gregtech:compressed_10:11, Block of Red Steel
+gregtech:compressed_10:12, Block of Blue Steel
+gregtech:compressed_10:13, Block of Damascus Steel
+gregtech:compressed_10:14, Block of Tungstensteel
+gregtech:compressed_10:15, Block of Red Alloy
 gregtech:frame_stainless_steel:0, Stainless Steel Frame
 gregtech:frame_stainless_steel:1, Stainless Steel Frame
 gregtech:frame_stainless_steel:2, Stainless Steel Frame
@@ -4793,86 +4785,6 @@ gregtech:frame_stainless_steel:12, Stainless Steel Frame
 gregtech:frame_stainless_steel:13, Stainless Steel Frame
 gregtech:frame_stainless_steel:14, Stainless Steel Frame
 gregtech:frame_stainless_steel:15, Stainless Steel Frame
-gregtech:frame_bronze:0, Bronze Frame
-gregtech:frame_bronze:1, Bronze Frame
-gregtech:frame_bronze:2, Bronze Frame
-gregtech:frame_bronze:3, Bronze Frame
-gregtech:frame_bronze:4, Bronze Frame
-gregtech:frame_bronze:5, Bronze Frame
-gregtech:frame_bronze:6, Bronze Frame
-gregtech:frame_bronze:7, Bronze Frame
-gregtech:frame_bronze:8, Bronze Frame
-gregtech:frame_bronze:9, Bronze Frame
-gregtech:frame_bronze:10, Bronze Frame
-gregtech:frame_bronze:11, Bronze Frame
-gregtech:frame_bronze:12, Bronze Frame
-gregtech:frame_bronze:13, Bronze Frame
-gregtech:frame_bronze:14, Bronze Frame
-gregtech:frame_bronze:15, Bronze Frame
-gregtech:frame_invar:0, Invar Frame
-gregtech:frame_invar:1, Invar Frame
-gregtech:frame_invar:2, Invar Frame
-gregtech:frame_invar:3, Invar Frame
-gregtech:frame_invar:4, Invar Frame
-gregtech:frame_invar:5, Invar Frame
-gregtech:frame_invar:6, Invar Frame
-gregtech:frame_invar:7, Invar Frame
-gregtech:frame_invar:8, Invar Frame
-gregtech:frame_invar:9, Invar Frame
-gregtech:frame_invar:10, Invar Frame
-gregtech:frame_invar:11, Invar Frame
-gregtech:frame_invar:12, Invar Frame
-gregtech:frame_invar:13, Invar Frame
-gregtech:frame_invar:14, Invar Frame
-gregtech:frame_invar:15, Invar Frame
-gregtech:frame_neutronium:0, Neutronium Frame
-gregtech:frame_neutronium:1, Neutronium Frame
-gregtech:frame_neutronium:2, Neutronium Frame
-gregtech:frame_neutronium:3, Neutronium Frame
-gregtech:frame_neutronium:4, Neutronium Frame
-gregtech:frame_neutronium:5, Neutronium Frame
-gregtech:frame_neutronium:6, Neutronium Frame
-gregtech:frame_neutronium:7, Neutronium Frame
-gregtech:frame_neutronium:8, Neutronium Frame
-gregtech:frame_neutronium:9, Neutronium Frame
-gregtech:frame_neutronium:10, Neutronium Frame
-gregtech:frame_neutronium:11, Neutronium Frame
-gregtech:frame_neutronium:12, Neutronium Frame
-gregtech:frame_neutronium:13, Neutronium Frame
-gregtech:frame_neutronium:14, Neutronium Frame
-gregtech:frame_neutronium:15, Neutronium Frame
-gregtech:frame_hssg:0, HSS-G Frame
-gregtech:frame_hssg:1, HSS-G Frame
-gregtech:frame_hssg:2, HSS-G Frame
-gregtech:frame_hssg:3, HSS-G Frame
-gregtech:frame_hssg:4, HSS-G Frame
-gregtech:frame_hssg:5, HSS-G Frame
-gregtech:frame_hssg:6, HSS-G Frame
-gregtech:frame_hssg:7, HSS-G Frame
-gregtech:frame_hssg:8, HSS-G Frame
-gregtech:frame_hssg:9, HSS-G Frame
-gregtech:frame_hssg:10, HSS-G Frame
-gregtech:frame_hssg:11, HSS-G Frame
-gregtech:frame_hssg:12, HSS-G Frame
-gregtech:frame_hssg:13, HSS-G Frame
-gregtech:frame_hssg:14, HSS-G Frame
-gregtech:frame_hssg:15, HSS-G Frame
-gregtech:frame_iron:0, Iron Frame
-gregtech:frame_iron:1, Iron Frame
-gregtech:frame_iron:2, Iron Frame
-gregtech:frame_iron:3, Iron Frame
-gregtech:frame_iron:4, Iron Frame
-gregtech:frame_iron:5, Iron Frame
-gregtech:frame_iron:6, Iron Frame
-gregtech:frame_iron:7, Iron Frame
-gregtech:frame_iron:8, Iron Frame
-gregtech:frame_iron:9, Iron Frame
-gregtech:frame_iron:10, Iron Frame
-gregtech:frame_iron:11, Iron Frame
-gregtech:frame_iron:12, Iron Frame
-gregtech:frame_iron:13, Iron Frame
-gregtech:frame_iron:14, Iron Frame
-gregtech:frame_iron:15, Iron Frame
 gregtech:frame_aluminium:0, Aluminium Frame
 gregtech:frame_aluminium:1, Aluminium Frame
 gregtech:frame_aluminium:2, Aluminium Frame
@@ -4889,102 +4801,22 @@ gregtech:frame_aluminium:12, Aluminium Frame
 gregtech:frame_aluminium:13, Aluminium Frame
 gregtech:frame_aluminium:14, Aluminium Frame
 gregtech:frame_aluminium:15, Aluminium Frame
-gregtech:frame_blue_steel:0, Blue Steel Frame
-gregtech:frame_blue_steel:1, Blue Steel Frame
-gregtech:frame_blue_steel:2, Blue Steel Frame
-gregtech:frame_blue_steel:3, Blue Steel Frame
-gregtech:frame_blue_steel:4, Blue Steel Frame
-gregtech:frame_blue_steel:5, Blue Steel Frame
-gregtech:frame_blue_steel:6, Blue Steel Frame
-gregtech:frame_blue_steel:7, Blue Steel Frame
-gregtech:frame_blue_steel:8, Blue Steel Frame
-gregtech:frame_blue_steel:9, Blue Steel Frame
-gregtech:frame_blue_steel:10, Blue Steel Frame
-gregtech:frame_blue_steel:11, Blue Steel Frame
-gregtech:frame_blue_steel:12, Blue Steel Frame
-gregtech:frame_blue_steel:13, Blue Steel Frame
-gregtech:frame_blue_steel:14, Blue Steel Frame
-gregtech:frame_blue_steel:15, Blue Steel Frame
-gregtech:frame_steel:0, Steel Frame
-gregtech:frame_steel:1, Steel Frame
-gregtech:frame_steel:2, Steel Frame
-gregtech:frame_steel:3, Steel Frame
-gregtech:frame_steel:4, Steel Frame
-gregtech:frame_steel:5, Steel Frame
-gregtech:frame_steel:6, Steel Frame
-gregtech:frame_steel:7, Steel Frame
-gregtech:frame_steel:8, Steel Frame
-gregtech:frame_steel:9, Steel Frame
-gregtech:frame_steel:10, Steel Frame
-gregtech:frame_steel:11, Steel Frame
-gregtech:frame_steel:12, Steel Frame
-gregtech:frame_steel:13, Steel Frame
-gregtech:frame_steel:14, Steel Frame
-gregtech:frame_steel:15, Steel Frame
-gregtech:frame_wood:0, Wood Frame
-gregtech:frame_wood:1, Wood Frame
-gregtech:frame_wood:2, Wood Frame
-gregtech:frame_wood:3, Wood Frame
-gregtech:frame_wood:4, Wood Frame
-gregtech:frame_wood:5, Wood Frame
-gregtech:frame_wood:6, Wood Frame
-gregtech:frame_wood:7, Wood Frame
-gregtech:frame_wood:8, Wood Frame
-gregtech:frame_wood:9, Wood Frame
-gregtech:frame_wood:10, Wood Frame
-gregtech:frame_wood:11, Wood Frame
-gregtech:frame_wood:12, Wood Frame
-gregtech:frame_wood:13, Wood Frame
-gregtech:frame_wood:14, Wood Frame
-gregtech:frame_wood:15, Wood Frame
-gregtech:frame_hsse:0, HSS-E Frame
-gregtech:frame_hsse:1, HSS-E Frame
-gregtech:frame_hsse:2, HSS-E Frame
-gregtech:frame_hsse:3, HSS-E Frame
-gregtech:frame_hsse:4, HSS-E Frame
-gregtech:frame_hsse:5, HSS-E Frame
-gregtech:frame_hsse:6, HSS-E Frame
-gregtech:frame_hsse:7, HSS-E Frame
-gregtech:frame_hsse:8, HSS-E Frame
-gregtech:frame_hsse:9, HSS-E Frame
-gregtech:frame_hsse:10, HSS-E Frame
-gregtech:frame_hsse:11, HSS-E Frame
-gregtech:frame_hsse:12, HSS-E Frame
-gregtech:frame_hsse:13, HSS-E Frame
-gregtech:frame_hsse:14, HSS-E Frame
-gregtech:frame_hsse:15, HSS-E Frame
-gregtech:frame_titanium:0, Titanium Frame
-gregtech:frame_titanium:1, Titanium Frame
-gregtech:frame_titanium:2, Titanium Frame
-gregtech:frame_titanium:3, Titanium Frame
-gregtech:frame_titanium:4, Titanium Frame
-gregtech:frame_titanium:5, Titanium Frame
-gregtech:frame_titanium:6, Titanium Frame
-gregtech:frame_titanium:7, Titanium Frame
-gregtech:frame_titanium:8, Titanium Frame
-gregtech:frame_titanium:9, Titanium Frame
-gregtech:frame_titanium:10, Titanium Frame
-gregtech:frame_titanium:11, Titanium Frame
-gregtech:frame_titanium:12, Titanium Frame
-gregtech:frame_titanium:13, Titanium Frame
-gregtech:frame_titanium:14, Titanium Frame
-gregtech:frame_titanium:15, Titanium Frame
-gregtech:frame_tungsten_steel:0, Tungstensteel Frame
-gregtech:frame_tungsten_steel:1, Tungstensteel Frame
-gregtech:frame_tungsten_steel:2, Tungstensteel Frame
-gregtech:frame_tungsten_steel:3, Tungstensteel Frame
-gregtech:frame_tungsten_steel:4, Tungstensteel Frame
-gregtech:frame_tungsten_steel:5, Tungstensteel Frame
-gregtech:frame_tungsten_steel:6, Tungstensteel Frame
-gregtech:frame_tungsten_steel:7, Tungstensteel Frame
-gregtech:frame_tungsten_steel:8, Tungstensteel Frame
-gregtech:frame_tungsten_steel:9, Tungstensteel Frame
-gregtech:frame_tungsten_steel:10, Tungstensteel Frame
-gregtech:frame_tungsten_steel:11, Tungstensteel Frame
-gregtech:frame_tungsten_steel:12, Tungstensteel Frame
-gregtech:frame_tungsten_steel:13, Tungstensteel Frame
-gregtech:frame_tungsten_steel:14, Tungstensteel Frame
-gregtech:frame_tungsten_steel:15, Tungstensteel Frame
+gregtech:frame_bronze:0, Bronze Frame
+gregtech:frame_bronze:1, Bronze Frame
+gregtech:frame_bronze:2, Bronze Frame
+gregtech:frame_bronze:3, Bronze Frame
+gregtech:frame_bronze:4, Bronze Frame
+gregtech:frame_bronze:5, Bronze Frame
+gregtech:frame_bronze:6, Bronze Frame
+gregtech:frame_bronze:7, Bronze Frame
+gregtech:frame_bronze:8, Bronze Frame
+gregtech:frame_bronze:9, Bronze Frame
+gregtech:frame_bronze:10, Bronze Frame
+gregtech:frame_bronze:11, Bronze Frame
+gregtech:frame_bronze:12, Bronze Frame
+gregtech:frame_bronze:13, Bronze Frame
+gregtech:frame_bronze:14, Bronze Frame
+gregtech:frame_bronze:15, Bronze Frame
 gregtech:frame_tritanium:0, Tritanium Frame
 gregtech:frame_tritanium:1, Tritanium Frame
 gregtech:frame_tritanium:2, Tritanium Frame
@@ -5001,6 +4833,188 @@ gregtech:frame_tritanium:12, Tritanium Frame
 gregtech:frame_tritanium:13, Tritanium Frame
 gregtech:frame_tritanium:14, Tritanium Frame
 gregtech:frame_tritanium:15, Tritanium Frame
+gregtech:frame_hsse:0, HSS-E Frame
+gregtech:frame_hsse:1, HSS-E Frame
+gregtech:frame_hsse:2, HSS-E Frame
+gregtech:frame_hsse:3, HSS-E Frame
+gregtech:frame_hsse:4, HSS-E Frame
+gregtech:frame_hsse:5, HSS-E Frame
+gregtech:frame_hsse:6, HSS-E Frame
+gregtech:frame_hsse:7, HSS-E Frame
+gregtech:frame_hsse:8, HSS-E Frame
+gregtech:frame_hsse:9, HSS-E Frame
+gregtech:frame_hsse:10, HSS-E Frame
+gregtech:frame_hsse:11, HSS-E Frame
+gregtech:frame_hsse:12, HSS-E Frame
+gregtech:frame_hsse:13, HSS-E Frame
+gregtech:frame_hsse:14, HSS-E Frame
+gregtech:frame_hsse:15, HSS-E Frame
+gregtech:frame_wood:0, Wood Frame
+gregtech:frame_wood:1, Wood Frame
+gregtech:frame_wood:2, Wood Frame
+gregtech:frame_wood:3, Wood Frame
+gregtech:frame_wood:4, Wood Frame
+gregtech:frame_wood:5, Wood Frame
+gregtech:frame_wood:6, Wood Frame
+gregtech:frame_wood:7, Wood Frame
+gregtech:frame_wood:8, Wood Frame
+gregtech:frame_wood:9, Wood Frame
+gregtech:frame_wood:10, Wood Frame
+gregtech:frame_wood:11, Wood Frame
+gregtech:frame_wood:12, Wood Frame
+gregtech:frame_wood:13, Wood Frame
+gregtech:frame_wood:14, Wood Frame
+gregtech:frame_wood:15, Wood Frame
+gregtech:frame_neutronium:0, Neutronium Frame
+gregtech:frame_neutronium:1, Neutronium Frame
+gregtech:frame_neutronium:2, Neutronium Frame
+gregtech:frame_neutronium:3, Neutronium Frame
+gregtech:frame_neutronium:4, Neutronium Frame
+gregtech:frame_neutronium:5, Neutronium Frame
+gregtech:frame_neutronium:6, Neutronium Frame
+gregtech:frame_neutronium:7, Neutronium Frame
+gregtech:frame_neutronium:8, Neutronium Frame
+gregtech:frame_neutronium:9, Neutronium Frame
+gregtech:frame_neutronium:10, Neutronium Frame
+gregtech:frame_neutronium:11, Neutronium Frame
+gregtech:frame_neutronium:12, Neutronium Frame
+gregtech:frame_neutronium:13, Neutronium Frame
+gregtech:frame_neutronium:14, Neutronium Frame
+gregtech:frame_neutronium:15, Neutronium Frame
+gregtech:frame_tungsten_steel:0, Tungstensteel Frame
+gregtech:frame_tungsten_steel:1, Tungstensteel Frame
+gregtech:frame_tungsten_steel:2, Tungstensteel Frame
+gregtech:frame_tungsten_steel:3, Tungstensteel Frame
+gregtech:frame_tungsten_steel:4, Tungstensteel Frame
+gregtech:frame_tungsten_steel:5, Tungstensteel Frame
+gregtech:frame_tungsten_steel:6, Tungstensteel Frame
+gregtech:frame_tungsten_steel:7, Tungstensteel Frame
+gregtech:frame_tungsten_steel:8, Tungstensteel Frame
+gregtech:frame_tungsten_steel:9, Tungstensteel Frame
+gregtech:frame_tungsten_steel:10, Tungstensteel Frame
+gregtech:frame_tungsten_steel:11, Tungstensteel Frame
+gregtech:frame_tungsten_steel:12, Tungstensteel Frame
+gregtech:frame_tungsten_steel:13, Tungstensteel Frame
+gregtech:frame_tungsten_steel:14, Tungstensteel Frame
+gregtech:frame_tungsten_steel:15, Tungstensteel Frame
+gregtech:frame_darmstadtium:0, Darmstadtium Frame
+gregtech:frame_darmstadtium:1, Darmstadtium Frame
+gregtech:frame_darmstadtium:2, Darmstadtium Frame
+gregtech:frame_darmstadtium:3, Darmstadtium Frame
+gregtech:frame_darmstadtium:4, Darmstadtium Frame
+gregtech:frame_darmstadtium:5, Darmstadtium Frame
+gregtech:frame_darmstadtium:6, Darmstadtium Frame
+gregtech:frame_darmstadtium:7, Darmstadtium Frame
+gregtech:frame_darmstadtium:8, Darmstadtium Frame
+gregtech:frame_darmstadtium:9, Darmstadtium Frame
+gregtech:frame_darmstadtium:10, Darmstadtium Frame
+gregtech:frame_darmstadtium:11, Darmstadtium Frame
+gregtech:frame_darmstadtium:12, Darmstadtium Frame
+gregtech:frame_darmstadtium:13, Darmstadtium Frame
+gregtech:frame_darmstadtium:14, Darmstadtium Frame
+gregtech:frame_darmstadtium:15, Darmstadtium Frame
+gregtech:frame_titanium:0, Titanium Frame
+gregtech:frame_titanium:1, Titanium Frame
+gregtech:frame_titanium:2, Titanium Frame
+gregtech:frame_titanium:3, Titanium Frame
+gregtech:frame_titanium:4, Titanium Frame
+gregtech:frame_titanium:5, Titanium Frame
+gregtech:frame_titanium:6, Titanium Frame
+gregtech:frame_titanium:7, Titanium Frame
+gregtech:frame_titanium:8, Titanium Frame
+gregtech:frame_titanium:9, Titanium Frame
+gregtech:frame_titanium:10, Titanium Frame
+gregtech:frame_titanium:11, Titanium Frame
+gregtech:frame_titanium:12, Titanium Frame
+gregtech:frame_titanium:13, Titanium Frame
+gregtech:frame_titanium:14, Titanium Frame
+gregtech:frame_titanium:15, Titanium Frame
+gregtech:frame_hssg:0, HSS-G Frame
+gregtech:frame_hssg:1, HSS-G Frame
+gregtech:frame_hssg:2, HSS-G Frame
+gregtech:frame_hssg:3, HSS-G Frame
+gregtech:frame_hssg:4, HSS-G Frame
+gregtech:frame_hssg:5, HSS-G Frame
+gregtech:frame_hssg:6, HSS-G Frame
+gregtech:frame_hssg:7, HSS-G Frame
+gregtech:frame_hssg:8, HSS-G Frame
+gregtech:frame_hssg:9, HSS-G Frame
+gregtech:frame_hssg:10, HSS-G Frame
+gregtech:frame_hssg:11, HSS-G Frame
+gregtech:frame_hssg:12, HSS-G Frame
+gregtech:frame_hssg:13, HSS-G Frame
+gregtech:frame_hssg:14, HSS-G Frame
+gregtech:frame_hssg:15, HSS-G Frame
+gregtech:frame_invar:0, Invar Frame
+gregtech:frame_invar:1, Invar Frame
+gregtech:frame_invar:2, Invar Frame
+gregtech:frame_invar:3, Invar Frame
+gregtech:frame_invar:4, Invar Frame
+gregtech:frame_invar:5, Invar Frame
+gregtech:frame_invar:6, Invar Frame
+gregtech:frame_invar:7, Invar Frame
+gregtech:frame_invar:8, Invar Frame
+gregtech:frame_invar:9, Invar Frame
+gregtech:frame_invar:10, Invar Frame
+gregtech:frame_invar:11, Invar Frame
+gregtech:frame_invar:12, Invar Frame
+gregtech:frame_invar:13, Invar Frame
+gregtech:frame_invar:14, Invar Frame
+gregtech:frame_invar:15, Invar Frame
+gregtech:frame_iron:0, Iron Frame
+gregtech:frame_iron:1, Iron Frame
+gregtech:frame_iron:2, Iron Frame
+gregtech:frame_iron:3, Iron Frame
+gregtech:frame_iron:4, Iron Frame
+gregtech:frame_iron:5, Iron Frame
+gregtech:frame_iron:6, Iron Frame
+gregtech:frame_iron:7, Iron Frame
+gregtech:frame_iron:8, Iron Frame
+gregtech:frame_iron:9, Iron Frame
+gregtech:frame_iron:10, Iron Frame
+gregtech:frame_iron:11, Iron Frame
+gregtech:frame_iron:12, Iron Frame
+gregtech:frame_iron:13, Iron Frame
+gregtech:frame_iron:14, Iron Frame
+gregtech:frame_iron:15, Iron Frame
+gregtech:frame_steel:0, Steel Frame
+gregtech:frame_steel:1, Steel Frame
+gregtech:frame_steel:2, Steel Frame
+gregtech:frame_steel:3, Steel Frame
+gregtech:frame_steel:4, Steel Frame
+gregtech:frame_steel:5, Steel Frame
+gregtech:frame_steel:6, Steel Frame
+gregtech:frame_steel:7, Steel Frame
+gregtech:frame_steel:8, Steel Frame
+gregtech:frame_steel:9, Steel Frame
+gregtech:frame_steel:10, Steel Frame
+gregtech:frame_steel:11, Steel Frame
+gregtech:frame_steel:12, Steel Frame
+gregtech:frame_steel:13, Steel Frame
+gregtech:frame_steel:14, Steel Frame
+gregtech:frame_steel:15, Steel Frame
+gregtech:frame_blue_steel:0, Blue Steel Frame
+gregtech:frame_blue_steel:1, Blue Steel Frame
+gregtech:frame_blue_steel:2, Blue Steel Frame
+gregtech:frame_blue_steel:3, Blue Steel Frame
+gregtech:frame_blue_steel:4, Blue Steel Frame
+gregtech:frame_blue_steel:5, Blue Steel Frame
+gregtech:frame_blue_steel:6, Blue Steel Frame
+gregtech:frame_blue_steel:7, Blue Steel Frame
+gregtech:frame_blue_steel:8, Blue Steel Frame
+gregtech:frame_blue_steel:9, Blue Steel Frame
+gregtech:frame_blue_steel:10, Blue Steel Frame
+gregtech:frame_blue_steel:11, Blue Steel Frame
+gregtech:frame_blue_steel:12, Blue Steel Frame
+gregtech:frame_blue_steel:13, Blue Steel Frame
+gregtech:frame_blue_steel:14, Blue Steel Frame
+gregtech:frame_blue_steel:15, Blue Steel Frame
+jarm:oak_raft, Oak Log Raft
+jarm:spruce_raft, Spruce Log Raft
+jarm:birch_raft, Birch Log Raft
+jarm:jungle_raft, Jungle Log Raft
+jarm:acacia_raft, Acacia Log Raft
+jarm:dark_oak_raft, Dark Oak Log Raft
 tfc:wand, TFC Debug Wand
 tfc:mortar, Mortar
 tfc:wooden_bucket:0, Bucket
@@ -7793,20 +7807,6 @@ camping:tent:14, Orange Tent
 camping:tent:15, Tent
 camping:sleeping_bag, tile.camping:sleeping_bag.name
 camping:hemp, tile.camping:hemp.name
-primal_tech:flint_block, Flint Block
-primal_tech:charcoal_block, Low Grade Charcoal
-primal_tech:clay_kiln, Clay Kiln
-primal_tech:stick_bundle, Stick Bundle
-primal_tech:fibre_torch, Un-Lit Fibre Torch
-primal_tech:wooden_hopper, Wopper Mk2 :P
-primal_tech:charcoal_hopper, Flame Grilled Wopper
-primal_tech:fibre_torch_lit, Lit Fibre Torch
-primal_tech:work_stump, Work Stump
-primal_tech:stone_grill, Stone Grill
-primal_tech:work_stump_upgraded, Work Stump Mk2
-primal_tech:water_saw, Water Powered Saw
-primal_tech:stone_anvil, Stone Anvil
-primal_tech:wooden_basin, Wooden Basin
 primal_tech:fire_sticks, Whittled Fire Sticks
 primal_tech:bone_pickaxe, Bone Pickaxe
 primal_tech:bone_axe, Bone Axe
@@ -7825,6 +7825,20 @@ primal_tech:bone_sword, Bone Sword
 primal_tech:bone_knife, Bone Knife
 primal_tech:stone_mallet, Stone Mallet
 primal_tech:leaf_bed, Bed of Straw and Leaves
+primal_tech:flint_block, Flint Block
+primal_tech:charcoal_block, Low Grade Charcoal
+primal_tech:clay_kiln, Clay Kiln
+primal_tech:stick_bundle, Stick Bundle
+primal_tech:fibre_torch, Un-Lit Fibre Torch
+primal_tech:wooden_hopper, Wopper Mk2 :P
+primal_tech:charcoal_hopper, Flame Grilled Wopper
+primal_tech:fibre_torch_lit, Lit Fibre Torch
+primal_tech:work_stump, Work Stump
+primal_tech:stone_grill, Stone Grill
+primal_tech:work_stump_upgraded, Work Stump Mk2
+primal_tech:water_saw, Water Powered Saw
+primal_tech:stone_anvil, Stone Anvil
+primal_tech:wooden_basin, Wooden Basin
 agricraft:seed_analyzer, Seed Analyzer
 agricraft:peripheral, Computer Controlled Seed Analyzer
 agricraft:water_tank:0, Wooden Water Tank
@@ -8109,6 +8123,7 @@ gep:petrol_canister:0, item.gep:petrol_canister.name
 gep:petrol_canister:0, item.gep:petrol_canister.name
 gep:pizza_oven:0, Air
 gep:pizza_oven2:0, Air
+minesafety:depthgauge, Depth Gauge
 harvestcraft:blackberryitem, Blackberry
 harvestcraft:blackberryseeditem, Blackberry Seed
 harvestcraft:blueberryitem, Blueberry

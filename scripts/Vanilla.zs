@@ -228,8 +228,8 @@
         
         ## Ingots
 
-            mods.jei.JEI.removeAndHide(<minecraft:iron_ingot>);
-            mods.jei.JEI.removeAndHide(<minecraft:gold_ingot>);
+            ## mods.jei.JEI.removeAndHide(<minecraft:iron_ingot>);
+            ## mods.jei.JEI.removeAndHide(<minecraft:gold_ingot>);
 
         ## Armor
 
