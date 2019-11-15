@@ -1,27 +1,36 @@
 
-item.contenttweaker.circuitbasic.name= Basic Circuit Board
-item.contenttweaker.circuitcalculation.name= Calculation Board
-item.contenttweaker.circuitconstruction.name= Construction Circuit Board
-item.contenttweaker.circuitcontroller.name= Controller Circuit Board
-item.contenttweaker.circuitdestruction.name= Destruction Circuit Board
-item.contenttweaker.circuitengineering.name= Engineering Circuit Board
-item.contenttweaker.circuitlogic.name= Logic Circuit Board
-item.contenttweaker.circuitsignal.name= Signal Circuit Board
-item.contenttweaker.circuitwireless.name= Wireless Circuit Board
-item.contenttweaker.circuitkaotic.name= Kaotic Circuit Board
-item.contenttweaker.circuitmold.name= Circuit Mold
-item.contenttweaker.greenstone.name= Greenstone Dust
-item.contenttweaker.sharprockhead.name= Sharpened Rock
-
-
-
-
-
-
-
-
-
-
+item.contenttweaker.circuitbasic.name=Basic Circuit Board
+item.contenttweaker.circuitcalculation.name=Calculation Board
+item.contenttweaker.circuitconstruction.name=Construction Circuit Board
+item.contenttweaker.circuitcontroller.name=Controller Circuit Board
+item.contenttweaker.circuitdestruction.name=Destruction Circuit Board
+item.contenttweaker.circuitengineering.name=Engineering Circuit Board
+item.contenttweaker.circuitlogic.name=Logic Circuit Board
+item.contenttweaker.circuitsignal.name=Signal Circuit Board
+item.contenttweaker.circuitwireless.name=Wireless Circuit Board
+item.contenttweaker.circuitkaotic.name=Kaotic Circuit Board
+item.contenttweaker.circuitmold.name=Circuit Mold
+item.contenttweaker.greenstone.name=Greenstone Dust
+item.contenttweaker.charged_quartz_clump.name=Chunk of Charged Quartz
+item.contenttweaker.chunkQuartz.name=Chunk of Quartz
+item.contenttweaker.almandine_clump.name=Chunk of Almandine
+item.contenttweaker.aluminium_clump.name=Chunk of Aluminium
+item.contenttweaker.amethyst.name=Chunk of Amethyst
+item.contenttweaker.apatite.clump.name=Chunk of Apatite
+item.contenttweaker.banded_iron_clump.name=Chunk of Banded Iron
+item.contenttweaker.barite_clump.name=Chunk of Barite
+item.contenttweaker.bastnasite_clump.name=Chunk of Bastnasite
+item.contenttweaker.bauxite_clump.name=Chunk of Bauxite
+item.contenttweaker.bentonite_clump.name=Chunk of Bentonite
+item.contenttweaker.beryllium_clump.name=Chunk of Beryllium
+item.contenttweaker.bismuth_clump.name=Chunk of Bismuth
+item.contenttweaker.blue_topaz_clump.name=Chunk of Blue Topaz
+item.contenttweaker.bornite_clump.name=Chunk of Bornite
+item.contenttweaker.brown_limonite_clump.name=Chunk of Brown Limonite
+item.contenttweaker.calcite_clump.name=Chunk of Calcite
+item.contenttweaker.cassiterite_clump.name=Chunk of Cassiterite
+item.contenttweaker.certus_quartz_clump.name=Chunk of Certus Quartz
+item.contenttweaker.chalcocite_clump.name=Chunk of Chalcocite
 
 
 
