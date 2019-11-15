@@ -12,7 +12,7 @@
 
                 mods.jei.JEI.removeAndHide(<taam:concrete:*>);
                 mods.jei.JEI.removeAndHide(<taam:debugger>);
-                mods.jei.JEI.removeAndHide(<taam:dust:*>);
+                ## mods.jei.JEI.removeAndHide(<taam:dust:*>);
                 mods.jei.JEI.removeAndHide(<taam:fluid.dye.black>);
                 mods.jei.JEI.removeAndHide(<taam:fluid.dye.blue>);
                 mods.jei.JEI.removeAndHide(<taam:fluid.dye.brown>);
@@ -46,9 +46,9 @@
                 mods.jei.JEI.removeAndHide(<taam:material:6>);
                 mods.jei.JEI.removeAndHide(<taam:material:9>);
                 mods.jei.JEI.removeAndHide(<taam:ore:*>);
-                mods.jei.JEI.removeAndHide(<taam:productionline:6>);
-                mods.jei.JEI.removeAndHide(<taam:productionline:7>);
-                mods.jei.JEI.removeAndHide(<taam:productionline:8>);
+                ##mods.jei.JEI.removeAndHide(<taam:productionline:6>);
+                ##mods.jei.JEI.removeAndHide(<taam:productionline:7>);
+                ##mods.jei.JEI.removeAndHide(<taam:productionline:8>);
                 furnace.removeAll();
             
     ## Recipe Removal

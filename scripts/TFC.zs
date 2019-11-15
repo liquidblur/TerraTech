@@ -108,6 +108,7 @@
             mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/propick_head>);
             mods.jei.JEI.removeAndHide(<tfc:ceramics/unfired/mold/ingot>);
 
+
         ## Acacia
 
             mods.jei.JEI.removeAndHide(<tfc:wood/chest/acacia>);

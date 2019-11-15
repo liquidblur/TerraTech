@@ -5,7 +5,7 @@
             ## mods.jei.JEI.removeAndHide(<>);
             ## mods.jei.JEI.hide(<>);
 
-
+        ## Name Change
 
     
     ## Tools
@@ -418,11 +418,32 @@
             ## mods.jei.JEI.removeAndHide(<appliedenergistics2:spatial_storage_cell_128_cubed>);
 
 
+## Aquaticraft
+
+            mods.jei.JEI.hide(<aquaculture:loot:1>);
+            mods.jei.JEI.hide(<aquaculture:loot:4>);
+            mods.jei.JEI.hide(<aquaculture:loot:5>);
+            mods.jei.JEI.hide(<aquaculture:loot:6>);
+            mods.jei.JEI.hide(<aquaculture:loot:7>);
+            mods.jei.JEI.hide(<aquaculture:neptunium_axe>);
+            mods.jei.JEI.hide(<aquaculture:neptunium_boots>);
+            mods.jei.JEI.hide(<aquaculture:neptunium_chestplate>);
+            mods.jei.JEI.hide(<aquaculture:neptunium_helmet>);
+            mods.jei.JEI.hide(<aquaculture:neptunium_hoe>);
+            mods.jei.JEI.hide(<aquaculture:neptunium_leggings>);
+            mods.jei.JEI.hide(<aquaculture:neptunium_pickaxe>);
+            mods.jei.JEI.hide(<aquaculture:neptunium_shovel>);
+            mods.jei.JEI.hide(<aquaculture:neptunium_sword>);
+
+## Spawn Eggs 
+
+
+
 ## GregTech Community Edition
 
 
     ## Miso 
-            mods.jei.JEI.removeAndHide(<gregtech:meta_item_2:32509>);
+    
             mods.jei.JEI.removeAndHide(<gregtech:machine:802>);
             mods.jei.JEI.removeAndHide(<gregtech:machine:803>);
             mods.jei.JEI.removeAndHide(<gregtech:machine:804>);
@@ -451,49 +472,8 @@
 
     ## Remove and Hide
         
-            mods.jei.JEI.removeAndHide(<minecraftfuture:brick_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:granite_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:andesite_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:diorite_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:sandstone_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:red_sandstone_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:stone_brick_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:mossy_stone_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:nether_brick_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:nether_brick_red_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:end_stone_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:prismarine_wall>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:smoothquartz>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:smoothstone>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:stripped_dark_oak_log>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:stripped_acacia_log>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:stripped_jungle_log>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:stripped_birch_log>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:stripped_spruce_log>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:stripped_oak_log>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:campfire>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:sweetberry>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:dye:*>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:suspiciousstew>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:flowerblack>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:flowerblue>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:flowerwhite>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:trident>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:honeycomb>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:honey_bottle>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:honeycomb_block>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:honey_block>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:bee_hive>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:bee_nest>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:blue_ice>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:composter>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:grindstone>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:smithingtable>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:fletchingtable>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:loom>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:blast_furnace>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:barrel>);
-            mods.jei.JEI.removeAndHide(<minecraftfuture:stonecutter>);
+
+            
 
     ## Fix Recipes for Food
 

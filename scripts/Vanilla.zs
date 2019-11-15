@@ -72,7 +72,9 @@
 
         ## Hide Item
 
+            mods.jei.JEI.hide(<minecraft:spawn_egg>);
             mods.jei.JEI.hide(<minecraft:tallgrass>);
+            mods.jei.JEI.hide(<minecraft:spawn_egg>);
             mods.jei.JEI.hide(<minecraft:double_plant>);
             mods.jei.JEI.removeAndHide(<minecraft:furnace>);
 
